@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "fastify": "^4.24.3",
+    "stream-chat": "^8.14.4"
+  },
+  "devDependencies": {
+    "@fastify/cors": "^8.4.2",
+    "@types/node": "^20.10.3",
+    "nodemon": "^3.0.2",
+    "ts-node": "^10.9.1"
+  }
+}
